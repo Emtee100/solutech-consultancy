@@ -63,3 +63,15 @@ Single Provider: Used a single provider class to manage all state for simplicity
 Limitations
 No offline support - the app requires an internet connection.
 
+![]Single Provider: Used a single provider class to manage all state for simplicity.
+
+Limitations
+No offline support - the app requires an internet connection.
+
+![App Screenshot 1](visits_tracker/images/img1.jpg)
+![App Screenshot 2](visits_tracker/images/img2.jpg)
+![App Screenshot 3](visits_tracker/images/img3.jpg)
+![App Screenshot 4](visits_tracker/images/img4.jpg)
+![App Screenshot 5](visits_tracker/images/img5.jpg)
+![App Screenshot 6](visits_tracker/images/img6.jpg)
+![App Screenshot 7](visits_tracker/images/img7.jpg)
