@@ -381,6 +381,7 @@ class _VisitFormDialogState extends State<VisitFormDialog> {
                           Navigator.pop(context);
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
+                              backgroundColor: Theme.of(context).colorScheme.surfaceContainer,
                               margin: const EdgeInsets.symmetric(
                                 horizontal: 20,
                                 vertical: 10,

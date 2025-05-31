@@ -22,7 +22,7 @@ class _VisitsState extends State<Visits> {
   void initState() {
     super.initState();
     // Fetch visits once when widget initializes
-    final provider = Provider.of<AppLogic>(context, listen: false);
+    final provider = Provider.of<AppLogic>(context, listen: true);
     visits = provider.getAllVisits();
   }
 

@@ -221,6 +221,7 @@ class AppLogic extends ChangeNotifier {
 
       if (response.statusCode == 201) {
         print("Visit added successfully");
+        notifyListeners();
         responseCode = response.statusCode;
       } else {
         print("Error adding visit: ${response.statusCode}");
@@ -229,6 +230,7 @@ class AppLogic extends ChangeNotifier {
     } catch (e) {
       print(e);
     }
+
     return responseCode;
   }
 }
